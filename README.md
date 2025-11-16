@@ -33,7 +33,7 @@ This repository contains a simple Slint memory game demo application written in 
    cross build --target armv7-unknown-linux-gnueabihf --workspace --exclude slint-node --exclude pyslint --release
    ```
 
-6. Transfer the compiled binary from `target/armv7-unknown-linux-gnueabihf/release/hello_world_slint_rust` to your LuckFox Pico Ultra W device:
+6. Transfer the compiled binary from `target/armv7-unknown-linux-gnueabihf/release/memory_slint` to your LuckFox Pico Ultra W device:
 
    ```bash
    scp target/armv7-unknown-linux-gnueabihf/release/memory_slint pico@192.168.178.23:/home/pico/slint/memory_slint
